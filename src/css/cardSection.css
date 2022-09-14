@@ -1,0 +1,62 @@
+.cardSection{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding: 10px;
+    border:solid #a3a3a3 1px;
+    border-radius: 10px;
+   
+}
+.cardProd{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+    background-color: #ffffff;
+    border:0.5px solid #d5eff7;
+    padding: 20px;
+    border-radius: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 24px;
+    color:#a5a5a5;
+    text-align: center;
+}
+.cardProdSelect{
+    color:rgb(255, 255, 255);
+    background-image: linear-gradient(150deg,rgb(119, 202, 250), #90e0f8); 
+}
+.cardFotProd{
+    width: 120px;
+    height: 120px;
+    border:solid 2px #ffffff;
+    border-radius: 50%;
+    box-shadow:0px 0px 10px 2px #949494;
+    object-fit:cover;
+}
+.cardProd .cardProdValor{
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cardProd .cardProdValor .prodValor{
+    font-weight: bolder;
+}
+.cardProd .cardProdValor .cardProdButton{
+    background-image: linear-gradient(150deg,rgb(148, 227, 247), #56bedd);
+    border:solid 1px #fff;
+    border-radius: 10px;
+    line-height: 28px;
+    font-size: 36px;
+    color:#fff; 
+}
+.cardProd .cardProdValor .cardProdButtonSelect{
+    background-color:#fff;
+    background-image: none;
+    color:#56bedd; 
+}
